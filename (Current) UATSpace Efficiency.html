@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+UATSpace Page for CSC102 at UAT.edu
+by Alex Rodriguez
+Alerodr1@uat.edu
+
+Assignment Launching your UAT Space Program HTML Document Tags 
+12Sep2022
+-->
+
+<html>
+
+<head>
+    <script src="code.js"></script>
+    <!---The 'Script' code is used to link different code languages. HTML will hold HTML and the Java will be Java. Makes it easier to organize code and link! -->
+    <link rel="stylesheet" href="style.css">
+    <!--I found this is another way to link files and create relationships. I linked my css file to my HTML. -->
+    <title>
+        Alexzander Rodriguez UATSpace page
+    </title>
+</head>
+
+<body>
+    
+    <!--The UATSpace Logo downloaded from https://synchronic.uat.edu/courses/5195/assignments/187442?module_item_id=494357 -->
+    <img src="UATspaceLogo-1.jpg">
+    <h1>
+        UAT Space Program
+    </h1>
+    <p>
+        Test of the paragraph tags. <br>
+        The paragraph tags are used in html to display more than one sentence. <br>
+        This can be more than one line of text <br>
+    </p>
+    <!--
+    <script>
+        alert("Test of alert function. Welcome to UATSpace!");
+        document.write("This is a test of the docement.write function")
+    </script>
+    -->
+    <br>
+    <br>
+
+    <h2> Countdown Timer </h2>
+    <div id="countDis">The time will be appear here after start is pressed</div>
+    <br>
+    <br>
+
+
+    <button onclick="chgBtrCountdownTimer();">
+        Start
+    </button>
+
+    <button>
+        Stop
+    </button>
+
+    <br>
+    <br>
+    <!--Place to play Craps-->
+    <div id="die1Res">The die 1 result will go here</div><br>
+    <div id="die2Res">The die 2 result will go here</div><br>
+    <div id="gameRes">The game results will go here</div><br>
+    <button onclick="playCraps();">PlayCraps</button>
+<!--This gives the diaplay of the craps and its own button to display on the webpage-->
+</body>
+</html>
